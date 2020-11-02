@@ -320,6 +320,33 @@ h6 {
   font-family: "Roboto Slab", serif;
   color: #D14348; }
 
+.background {
+  color: #EEE8D6;
+  margin: 20px 0;
+  width: 100%;
+  display: table; }
+  .background .container {
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 20px; }
+    .background .container h1 {
+      color: #FFBA00;
+      font-family: "Nunito", sans-serif;
+      font-size: 5rem;
+      line-height: 105%;
+      margin-bottom: 0;
+      padding: 0 10%; }
+    .background .container p {
+      padding: 0 10%;
+      margin-top: 0; }
+
+.jumbotron {
+  background: url("");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px; }
+
 .container {
   width: 80%;
   margin: 0 auto; }
@@ -346,23 +373,3 @@ h6 {
   .media a {
     text-decoration: none;
     color: #022933; }
-
-.background {
-  color: #EEE8D6;
-  margin: 20px 0;
-  width: 100%;
-  display: table; }
-  .background .container {
-    display: table-cell;
-    vertical-align: bottom;
-    padding-bottom: 20px; }
-    .background .container h1 {
-      color: #FFBA00;
-      font-family: "Nunito", sans-serif;
-      font-size: 5rem;
-      line-height: 105%;
-      margin-bottom: 0;
-      padding: 0 10%; }
-    .background .container p {
-      padding: 0 10%;
-      margin-top: 0; }
