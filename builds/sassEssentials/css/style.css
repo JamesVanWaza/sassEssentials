@@ -343,6 +343,28 @@ h6 {
 .btn-cool {
   background: #0076A3; }
 
+.grid:before, .grid:after {
+  content: '';
+  display: table; }
+
+.grid:after {
+  clear: both; }
+
+.grid .item {
+  float: left;
+  width: 32%; }
+  .grid .item:nth-child(n) {
+    margin-bottom: 2%;
+    margin-right: 2%; }
+  .grid .item:nth-child(3n) {
+    margin-bottom: 0;
+    margin-right: 0; }
+
+.grid img {
+  display: block;
+  border-radius: 10px;
+  max-width: 100%; }
+
 .background {
   color: #EEE8D6;
   margin: 20px 0;
