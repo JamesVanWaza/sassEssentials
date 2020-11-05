@@ -343,7 +343,7 @@ h6 {
   font-family: "Roboto Slab", serif;
   color: #0076A3, #6D73C2, #548C27, #D14348, #F39856, #FFBA00; }
 
-.btn-default, .btn-hot, .btn-cool {
+.btn-default, .btn-hot, .btn-cool, .btn-awesome {
   display: inline-block;
   padding: 6px 12px;
   text-align: center;
@@ -357,13 +357,16 @@ h6 {
   color: #EEE8D6; }
 
 .btn-default {
-  background: #022933; }
+  background-color: #022933; }
 
 .btn-hot {
-  background: #D14348; }
+  background-color: #D14348; }
 
 .btn-cool {
-  background: #0076A3; }
+  background-color: #0076A3; }
+
+.btn-awesome {
+  background-color: #6D73C2; }
 
 .grid:before, .grid:after {
   content: '';
