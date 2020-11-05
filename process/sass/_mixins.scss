@@ -28,3 +28,17 @@
         margin-right: 0;
     }
 }
+
+// This means that $args... will take in more than one value
+@mixin break($args...) {
+    @if length($args)==1 {
+        @media (min-width: nth($args, 1)) {
+            @content;
+        }
+    }
+    @else {
+        @media (min-width: nth($args, 1)) and (max-width: (nth($args, 2))) {
+            @content;
+        }
+    }
+}
