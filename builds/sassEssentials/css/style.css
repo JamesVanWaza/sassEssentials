@@ -362,7 +362,7 @@ h6 {
 
 .grid img {
   display: block;
-  border-radius: 10px;
+  border-radius: 20px;
   max-width: 100%; }
 
 .background {
@@ -437,3 +437,36 @@ h6 {
   .media a {
     text-decoration: none;
     color: #022933; }
+
+table {
+  font-size: 1.5rem;
+  text-align: left;
+  width: 100%; }
+  table caption {
+    font-size: 2.5rem;
+    text-align: left;
+    padding-bottom: 5px; }
+  table > thead > tr:nth-child(even),
+  table > tbody > tr:nth-child(even),
+  table > tfoot > tr:nth-child(even) {
+    background-color: rgba(255, 186, 0, 0.2); }
+  table > thead > tr:hover,
+  table > tbody > tr:hover,
+  table > tfoot > tr:hover {
+    background-color: rgba(255, 186, 0, 0.5); }
+  table > thead > tr > th,
+  table > thead > tr > td,
+  table > tbody > tr > th,
+  table > tbody > tr > td,
+  table > tfoot > tr > th,
+  table > tfoot > tr > td {
+    padding: 10px;
+    border-bottom: 1px dotted #0076A3; }
+  table > thead > tr {
+    background-color: #0076A3;
+    color: #EEE8D6; }
+    table > thead > tr:hover {
+      background-color: #a32d00;
+      transition: ease-in 0.5s; }
+    table > thead > tr > th {
+      border-bottom: 0; }
