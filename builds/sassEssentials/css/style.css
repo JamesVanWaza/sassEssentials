@@ -316,6 +316,24 @@ body {
   width: 80%;
   margin: 0 auto; }
 
+h1 {
+  color: #0076A3; }
+
+h2 {
+  color: #6D73C2; }
+
+h3 {
+  color: #548C27; }
+
+h4 {
+  color: #D14348; }
+
+h5 {
+  color: #F39856; }
+
+h6 {
+  color: #FFBA00; }
+
 h1,
 h2,
 h3,
@@ -323,7 +341,7 @@ h4,
 h5,
 h6 {
   font-family: "Roboto Slab", serif;
-  color: #D14348; }
+  color: #0076A3, #6D73C2, #548C27, #D14348, #F39856, #FFBA00; }
 
 .btn-default, .btn-hot, .btn-cool {
   display: inline-block;
